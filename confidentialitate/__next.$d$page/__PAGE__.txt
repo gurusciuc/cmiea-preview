@@ -1,0 +1,148 @@
+1:"$Sreact.fragment"
+2:"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js"
+3:"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js"
+4:I[94433,["$2","$3"],"AuthProvider"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:"/cmiea-preview/_next/static/chunks/0cz6zhewo3nep.js"
+8:I[48303,["$2","$3","$7"],"SiteHeader"]
+9:I[5014,["$2","$3","$7"],"default"]
+10:I[19028,["$2","$3","$7"],"LegacyView"]
+16:"ViewportBoundary"
+17:I[97367,["$2","$3"],"$16"]
+18:"MetadataBoundary"
+19:I[97367,["$2","$3"],"$18"]
+1a:"$Sreact.suspense"
+:HL["/cmiea-preview/_next/static/chunks/4185z45saqqu_.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","style"]
+b:X
+e:X
+e:C
+11:T1ddd,
+    
+    
+
+    
+
+    <main class="pt-24 lg:pt-32 pb-12 px-4 lg:px-32 xl:px-64">
+        <div class="max-w-screen-xl mx-auto">
+            <div class="bg-white dark:bg-dark2 shadow-lg rounded-2xl p-6 lg:p-12">
+                <h1 class="text-4xl font-bold mb-8 dark:text-white">Politica de Confidențialitate</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400 mb-8">Ultima actualizare: 10 aprilie 2025</p>
+
+                <div class="prose dark:text-gray-300 space-y-6 text-gray-700">
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">1. Introducere</h2>
+                        <p>Centrul Municipal de Instruire și Educație a Adulților (CMIEA) respectă confidențialitatea datelor dumneavoastră personale. Această politică descrie modul în care colectăm, utilizăm, stocăm și protejăm informațiile personale ale utilizatorilor platformei noastre.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">2. Datele pe care le colectăm</h2>
+                        <p>În cadrul utilizării platformei, putem colecta următoarele categorii de date personale:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>Date de identificare:</strong> prenume, nume, adresa de email.</li>
+                            <li><strong>Date de contact:</strong> număr de telefon.</li>
+                            <li><strong>Date demografice:</strong> data nașterii, ocupația, nivelul de studii.</li>
+                            <li><strong>Date tehnice:</strong> adresa IP, tipul browserului, informații despre dispozitiv.</li>
+                            <li><strong>Date de utilizare:</strong> cursurile la care v-ați înscris, evenimentele la care participați, activitatea pe platformă.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">3. Scopul colectării datelor</h2>
+                        <p>Datele personale sunt colectate și utilizate în următoarele scopuri:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li>Crearea și gestionarea contului de utilizator.</li>
+                            <li>Înscrierea și participarea la cursuri, evenimente și cluburi.</li>
+                            <li>Comunicarea cu utilizatorii (notificări, actualizări, răspunsuri la solicitări).</li>
+                            <li>Îmbunătățirea serviciilor și a experienței pe platformă.</li>
+                            <li>Respectarea obligațiilor legale.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">4. Stocarea și securitatea datelor</h2>
+                        <p>Datele dumneavoastră sunt stocate în baze de date securizate prin intermediul serviciilor Google Firebase. Aplicăm măsuri tehnice și organizatorice adecvate pentru protecția datelor personale, inclusiv:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li>Criptarea datelor în tranzit și în repaus.</li>
+                            <li>Autentificarea securizată a utilizatorilor.</li>
+                            <li>Verificarea adresei de email.</li>
+                            <li>Accesul restricționat la datele personale doar personalului autorizat.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">5. Partajarea datelor</h2>
+                        <p>CMIEA nu vinde și nu închiriază datele personale ale utilizatorilor. Datele pot fi partajate cu:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>Furnizori de servicii:</strong> Google Firebase (autentificare și stocare date), pentru funcționarea platformei.</li>
+                            <li><strong>Autorități publice:</strong> în cazul în care legislația în vigoare impune acest lucru.</li>
+                            <li><strong>Formatori:</strong> datele necesare organizării cursurilor (nume, email).</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">6. Drepturile utilizatorilor</h2>
+                        <p>Aveți următoarele drepturi privind datele dumneavoastră personale:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>Dreptul de acces:</strong> puteți solicita informații despre datele personale pe care le deținem.</li>
+                            <li><strong>Dreptul la rectificare:</strong> puteți solicita corectarea datelor inexacte.</li>
+                            <li><strong>Dreptul la ștergere:</strong> puteți solicita ștergerea datelor personale.</li>
+                            <li><strong>Dreptul la portabilitate:</strong> puteți solicita transferul datelor într-un format structurat.</li>
+                            <li><strong>Dreptul la opoziție:</strong> puteți refuza prelucrarea datelor în anumite situații.</li>
+                        </ul>
+                        <p class="mt-2">Pentru exercitarea acestor drepturi, contactați-ne la adresa de email <a href="mailto:cmieainfo@gmail.com" class="text-main hover:underline">cmieainfo@gmail.com</a>.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">7. Durata stocării datelor</h2>
+                        <p>Datele personale sunt păstrate atât timp cât contul dumneavoastră este activ sau cât este necesar pentru îndeplinirea scopurilor descrise. La cererea de ștergere a contului, datele vor fi eliminate în termen de 30 de zile, cu excepția celor necesare din motive legale.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">8. Modificări ale politicii</h2>
+                        <p>CMIEA poate actualiza această politică periodic. Orice modificare va fi publicată pe această pagină cu data ultimei actualizări. Vă recomandăm să consultați periodic această pagină.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">9. Contact</h2>
+                        <p>Pentru întrebări sau solicitări legate de datele dumneavoastră personale:</p>
+                        <ul class="list-none space-y-1 mt-2">
+                            <li>Email: <a href="mailto:cmieainfo@gmail.com" class="text-main hover:underline">cmieainfo@gmail.com</a></li>
+                            <li>Telefon: <a href="tel:061121865" class="text-main hover:underline">061 121 865</a></li>
+                            <li>Adresă: Str. Matei Basarab 14, Chișinău, Republica Moldova</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+
+    <a href="https://t.me/+03ceuSlIN25mMTky" target="_blank" class="telegram-float" title="Contactează-ne pe Telegram">
+        <i class="ph ph-telegram-logo"></i>
+    </a>
+
+    
+    
+
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L8",null,{}],["$","main",null,{"className":"legacy-main","children":["$","$L10",null,{"document":{"html":"$11","scripts":[]},"page":"confidentialitate"}]}],"$L12"],["$L13"],"$L14"]}],"p":"$@15","v":null,"s":"$b"}}]]
+c:[["children",{"s":{"n":"page","t":"d","k":"confidentialitate","s":["curs","evenimente"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/4185z45saqqu_.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","precedence":"next"}],["$","link","3",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","precedence":"next"}],["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js","async":true}]],["$","html",null,{"lang":"ro","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/cmiea-preview/"}],["$","link",null,{"rel":"icon","href":"/cmiea-preview/assets/icon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","rel":"stylesheet"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('color-theme')==='dark'||(!localStorage.getItem('color-theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch{}"}}]]}],["$","body",null,{"className":"site-page","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","$L8",null,{}],["$","main",null,{"className":"app-container page-intro not-found","children":[["$","p",null,{"className":"section-eyebrow","children":"404"}],["$","h1",null,{"children":"Pagina nu a fost găsită."}],["$","p",null,{"children":"Poți reveni la pagina principală sau descoperi cursurile noastre."}],["$","a",null,{"href":"/cmiea-preview/home/","className":"app-button","children":"Înapoi la CMIEA"}]]}],["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"footer-wordmark","aria-hidden":"true","children":"cmiea"}],["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$L9",null,{"icon":{"name":"arrow-up-right","size":24,"node":[["path",{"d":"M7 7h10v10","key":"1tivn9"}],["path",{"d":"M7 17 17 7","key":"1vkiza"}]]},"size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}]],[]]}]}]}]]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1a",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Confidențialitate — CMIEA"}],["$","meta","1",{"name":"description","content":"Centrul Municipal de Învățare și Educație a Adulților. Cursuri gratuite, evenimente și cluburi în Chișinău."}]]}]}],null]}],null]}],"p":"$@1b","v":null,"s":"$b"}},"a":"$@1c","u":"$@1d","b":"UExEF3Zrcmh3unGHNk7mi"}
+1e:I[97367,["$2","$3"],"OutletBoundary"]
+12:["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"footer-wordmark","aria-hidden":"true","children":"cmiea"}],["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$L9",null,{"icon":"$0:t:t:d:r:props:children:1:props:children:1:props:children:props:children:props:notFound:0:2:props:children:1:props:children:0:props:children:2:props:children:1:props:icon","size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}]
+13:["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/0cz6zhewo3nep.js","async":true}]
+14:["$","$L1e",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+b:300
+1f:null
+1d:true
+b:C
+1c:0
+d:"$undefined"
+a:"$undefined"
+1b:"$undefined"
+15:"$undefined"

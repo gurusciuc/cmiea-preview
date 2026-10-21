@@ -1,0 +1,131 @@
+1:"$Sreact.fragment"
+2:"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js"
+3:"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js"
+4:I[94433,["$2","$3"],"AuthProvider"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:"/cmiea-preview/_next/static/chunks/0cz6zhewo3nep.js"
+8:I[48303,["$2","$3","$7"],"SiteHeader"]
+9:I[5014,["$2","$3","$7"],"default"]
+10:I[19028,["$2","$3","$7"],"LegacyView"]
+16:"ViewportBoundary"
+17:I[97367,["$2","$3"],"$16"]
+18:"MetadataBoundary"
+19:I[97367,["$2","$3"],"$18"]
+1a:"$Sreact.suspense"
+:HL["/cmiea-preview/_next/static/chunks/4185z45saqqu_.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","style"]
+b:X
+e:X
+e:C
+11:T1a98,
+    
+    
+
+    
+
+    <main class="pt-24 lg:pt-32 pb-12 px-4 lg:px-32 xl:px-64">
+        <div class="max-w-screen-xl mx-auto">
+            <div class="bg-white dark:bg-dark2 shadow-lg rounded-2xl p-6 lg:p-12">
+                <h1 class="text-4xl font-bold mb-8 dark:text-white">Politica privind Cookies</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400 mb-8">Ultima actualizare: 10 aprilie 2025</p>
+
+                <div class="prose dark:text-gray-300 space-y-6 text-gray-700">
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">1. Ce sunt cookie-urile?</h2>
+                        <p>Cookie-urile sunt fișiere text de mici dimensiuni care sunt stocate pe dispozitivul dumneavoastră (computer, telefon, tabletă) atunci când vizitați un site web. Acestea permit site-ului să rețină informații despre vizita dumneavoastră, cum ar fi preferințele de limbă și alte setări, facilitând astfel o experiență de navigare mai eficientă.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">2. Cum utilizăm cookie-urile</h2>
+                        <p>Platforma CMIEA utilizează cookie-uri și tehnologii similare (localStorage) pentru următoarele scopuri:</p>
+
+                        <h3 class="text-xl font-semibold mt-4 mb-2 dark:text-white">Cookie-uri esențiale</h3>
+                        <p>Acestea sunt necesare pentru funcționarea corectă a platformei și nu pot fi dezactivate:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>Autentificare Firebase:</strong> mențin sesiunea dumneavoastră de utilizator activă după autentificare.</li>
+                            <li><strong>Preferința de temă:</strong> rețin alegerea dumneavoastră între modul luminos și modul întunecat (stocat în localStorage sub cheia <code class="bg-gray-100 dark:bg-dark3 px-1 rounded">color-theme</code>).</li>
+                        </ul>
+
+                        <h3 class="text-xl font-semibold mt-4 mb-2 dark:text-white">Cookie-uri funcționale</h3>
+                        <p>Acestea îmbunătățesc funcționalitatea platformei:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>Date temporare de înregistrare:</strong> stocăm temporar prenumele și numele dumneavoastră în localStorage pentru a facilita procesul de înregistrare în doi pași.</li>
+                            <li><strong>Date de înscriere la cursuri:</strong> rețin informațiile necesare pentru finalizarea înscrierii la un curs.</li>
+                        </ul>
+
+                        <h3 class="text-xl font-semibold mt-4 mb-2 dark:text-white">Cookie-uri terțe</h3>
+                        <p>Platforma noastră utilizează servicii terțe care pot seta propriile cookie-uri:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>Google Firebase:</strong> pentru autentificare și stocarea datelor. <a href="https://firebase.google.com/support/privacy" class="text-main hover:underline" target="_blank">Politica de confidențialitate Firebase</a>.</li>
+                            <li><strong>Google Maps:</strong> pe pagina de contact, pentru afișarea locației noastre. <a href="https://policies.google.com/privacy" class="text-main hover:underline" target="_blank">Politica de confidențialitate Google</a>.</li>
+                            <li><strong>Google Fonts:</strong> pentru încărcarea fonturilor utilizate pe platformă.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">3. Durata de stocare</h2>
+                        <ul class="list-disc pl-6 space-y-1">
+                            <li><strong>Cookie-uri de sesiune:</strong> se șterg automat la închiderea browserului.</li>
+                            <li><strong>Cookie-uri persistente:</strong> rămân pe dispozitiv până la expirare sau până la ștergerea manuală. Preferința de temă rămâne stocată până când o modificați sau o ștergeți.</li>
+                            <li><strong>Cookie-uri Firebase:</strong> durata variază în funcție de tipul de autentificare, de obicei până la deconectare.</li>
+                        </ul>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">4. Controlul cookie-urilor</h2>
+                        <p>Puteți controla și gestiona cookie-urile în mai multe moduri:</p>
+                        <ul class="list-disc pl-6 space-y-1 mt-2">
+                            <li><strong>Setările browserului:</strong> majoritatea browserelor vă permit să vizualizați, gestionați și ștergeți cookie-urile prin setări.</li>
+                            <li><strong>Ștergerea localStorage:</strong> puteți șterge datele stocate local prin instrumentele de dezvoltator ale browserului (F12 &gt; Application &gt; Local Storage).</li>
+                        </ul>
+                        <p class="mt-2">Rețineți că dezactivarea cookie-urilor esențiale poate afecta funcționalitatea platformei, inclusiv capacitatea de autentificare.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">5. Modificări ale politicii</h2>
+                        <p>CMIEA poate actualiza această politică în orice moment. Modificările vor fi publicate pe această pagină cu data ultimei actualizări.</p>
+                    </section>
+
+                    <section>
+                        <h2 class="text-2xl font-semibold mb-3 dark:text-white">6. Contact</h2>
+                        <p>Pentru întrebări despre utilizarea cookie-urilor pe platforma noastră:</p>
+                        <ul class="list-none space-y-1 mt-2">
+                            <li>Email: <a href="mailto:cmieainfo@gmail.com" class="text-main hover:underline">cmieainfo@gmail.com</a></li>
+                            <li>Telefon: <a href="tel:061121865" class="text-main hover:underline">061 121 865</a></li>
+                            <li>Adresă: Str. Matei Basarab 14, Chișinău, Republica Moldova</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+
+    <a href="https://t.me/+03ceuSlIN25mMTky" target="_blank" class="telegram-float" title="Contactează-ne pe Telegram">
+        <i class="ph ph-telegram-logo"></i>
+    </a>
+
+    
+    
+
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L8",null,{}],["$","main",null,{"className":"legacy-main","children":["$","$L10",null,{"document":{"html":"$11","scripts":[]},"page":"cookies"}]}],"$L12"],["$L13"],"$L14"]}],"p":"$@15","v":null,"s":"$b"}}]]
+c:[["children",{"s":{"n":"page","t":"d","k":"cookies","s":["curs","evenimente"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/4185z45saqqu_.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","precedence":"next"}],["$","link","3",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","precedence":"next"}],["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js","async":true}]],["$","html",null,{"lang":"ro","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/cmiea-preview/"}],["$","link",null,{"rel":"icon","href":"/cmiea-preview/assets/icon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","rel":"stylesheet"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('color-theme')==='dark'||(!localStorage.getItem('color-theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch{}"}}]]}],["$","body",null,{"className":"site-page","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","$L8",null,{}],["$","main",null,{"className":"app-container page-intro not-found","children":[["$","p",null,{"className":"section-eyebrow","children":"404"}],["$","h1",null,{"children":"Pagina nu a fost găsită."}],["$","p",null,{"children":"Poți reveni la pagina principală sau descoperi cursurile noastre."}],["$","a",null,{"href":"/cmiea-preview/home/","className":"app-button","children":"Înapoi la CMIEA"}]]}],["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"footer-wordmark","aria-hidden":"true","children":"cmiea"}],["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$L9",null,{"icon":{"name":"arrow-up-right","size":24,"node":[["path",{"d":"M7 7h10v10","key":"1tivn9"}],["path",{"d":"M7 17 17 7","key":"1vkiza"}]]},"size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}]],[]]}]}]}]]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1a",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Politica cookies — CMIEA"}],["$","meta","1",{"name":"description","content":"Centrul Municipal de Învățare și Educație a Adulților. Cursuri gratuite, evenimente și cluburi în Chișinău."}]]}]}],null]}],null]}],"p":"$@1b","v":null,"s":"$b"}},"a":"$@1c","u":"$@1d","b":"UExEF3Zrcmh3unGHNk7mi"}
+1e:I[97367,["$2","$3"],"OutletBoundary"]
+12:["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"footer-wordmark","aria-hidden":"true","children":"cmiea"}],["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$L9",null,{"icon":"$0:t:t:d:r:props:children:1:props:children:1:props:children:props:children:props:notFound:0:2:props:children:1:props:children:0:props:children:2:props:children:1:props:icon","size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}]
+13:["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/0cz6zhewo3nep.js","async":true}]
+14:["$","$L1e",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+b:300
+1f:null
+1d:true
+b:C
+1c:0
+d:"$undefined"
+a:"$undefined"
+1b:"$undefined"
+15:"$undefined"
