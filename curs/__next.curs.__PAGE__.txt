@@ -1,0 +1,118 @@
+1:"$Sreact.fragment"
+2:"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js"
+3:"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js"
+4:I[94433,["$2","$3"],"AuthProvider"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:"/cmiea-preview/_next/static/chunks/2bjksbceacuid.js"
+8:I[48303,["$2","$3","$7"],"SiteHeader"]
+9:I[5014,["$2","$3","$7"],"default"]
+10:I[19028,["$2","$3","$7"],"LegacyView"]
+16:"ViewportBoundary"
+17:I[97367,["$2","$3"],"$16"]
+18:"MetadataBoundary"
+19:I[97367,["$2","$3"],"$18"]
+1a:"$Sreact.suspense"
+:HL["/cmiea-preview/_next/static/chunks/3ul81chy2kixd.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","style"]
+b:X
+e:X
+e:C
+11:Taa9,
+  
+    
+
+  
+
+<!-- Updated Hero Section to match evenimente.html style -->
+<div class="app-container course-detail-hero">
+    <div id="course-details-container" class="w-full">
+        <!-- Course details will be loaded dynamically from curs.js -->
+        <div class="flex justify-center items-center p-10">
+            <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-main"></div>
+        </div>
+    </div>
+</div>
+
+<section class="app-container course-detail-section">
+  <div class=" w-full  py-4">
+    <h2 class="mb-6 text-3xl font-bold normal-case md:text-4xl font-satoshi tracking-wide">Ce vei <span class="text-main">învăța?</span></h2>
+    <div id="learn-section" class="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
+    </div>
+  </div>
+</section>
+<section class="app-container course-detail-section">
+  <div class="mx-auto w-full py-4">
+    <div class="mt-10">
+      <div class="flex justify-between items-center mb-8">
+        <h2 class="text-4xl font-bold normal-case md:text-4xl font-satoshi tracking-wide">
+          <span class="text-main">Orarul</span> Săptămânal
+        </h2>
+      </div>
+      <div class="rounded-2xl shadow-xl overflow-hidden">
+        <div class="hidden md:block">
+          <table class="w-full text-center">
+            <thead class="bg-main dark:bg-maindark text-white">
+              <tr>
+                <th class="py-3 px-4 font-semibold">Luni</th>
+                <th class="py-3 px-4 font-semibold">Marți</th>
+                <th class="py-3 px-4 font-semibold">Miercuri</th>
+                <th class="py-3 px-4 font-semibold">Joi</th>
+                <th class="py-3 px-4 font-semibold">Vineri</th>
+                <th class="py-3 px-4 font-semibold">Sâmbătă</th>
+                <th class="py-3 px-4 font-semibold">Duminică</th>
+              </tr>
+            </thead>
+            <tbody id="desktop-schedule">
+            </tbody>
+          </table>
+        </div>
+        <div class="block md:hidden">
+          <table class="w-full bg-white dark:bg-[#2a2a2a]">
+            <tbody id="mobile-schedule">
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+<section>
+<section class="app-container course-detail-section">
+  <div class="mx-auto w-full" data-aos="fade-up" data-aos-duration="900">
+    <div id="faq-container" class="flex flex-col gap-y-12 md:grid md:grid-flow-row md:grid-cols-2 md:gap-8 lg:grid-cols-[0.8fr_1fr]">
+    </div>
+  </div>
+</section>
+
+
+<!-- Floating Telegram Bubble -->
+<a href="https://t.me/+03ceuSlIN25mMTky" target="_blank" class="telegram-float" title="Contactează-ne pe Telegram">
+    <i class="ph ph-telegram-logo"></i>
+</a>
+
+
+
+
+
+
+</section></section>f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L8",null,{}],["$","main",null,{"className":"app-main course-detail-page","children":[["$","div",null,{"className":"app-container","children":["$","a",null,{"className":"text-link","href":"/cmiea-preview/cursuri/","children":[["$","$L9",null,{"icon":{"name":"arrow-left","size":24,"node":[["path",{"d":"m12 19-7-7 7-7","key":"1l729n"}],["path",{"d":"M19 12H5","key":"x3x0zl"}]]},"size":18}]," Toate cursurile"]}]}],["$","$L10",null,{"page":"curs","document":{"html":"$11","scripts":[{"src":"/legacy/js/curs.js","module":true}]}}]]}],"$L12"],["$L13"],"$L14"]}],"p":"$@15","v":null,"s":"$b"}}]]
+c:[["children",{"s":"curs","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3ul81chy2kixd.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","precedence":"next"}],["$","link","3",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","precedence":"next"}],["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js","async":true}]],["$","html",null,{"lang":"ro","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/cmiea-preview/"}],["$","link",null,{"rel":"icon","href":"/cmiea-preview/assets/icon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","rel":"stylesheet"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('color-theme')==='dark'||(!localStorage.getItem('color-theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch{}"}}]]}],["$","body",null,{"className":"site-page","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","$L8",null,{}],["$","main",null,{"className":"app-container page-intro not-found","children":[["$","p",null,{"className":"section-eyebrow","children":"404"}],["$","h1",null,{"children":"Pagina nu a fost găsită."}],["$","p",null,{"children":"Poți reveni la pagina principală sau descoperi cursurile noastre."}],["$","a",null,{"href":"/cmiea-preview/home/","className":"app-button","children":"Înapoi la CMIEA"}]]}],["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$L9",null,{"icon":{"name":"arrow-up-right","size":24,"node":[["path",{"d":"M7 7h10v10","key":"1tivn9"}],["path",{"d":"M7 17 17 7","key":"1vkiza"}]]},"size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}]],[]]}]}]}]]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1a",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Detalii curs — CMIEA"}],["$","meta","1",{"name":"description","content":"Centrul Municipal de Învățare și Educație a Adulților. Cursuri gratuite, evenimente și cluburi în Chișinău."}]]}]}],null]}],null]}],"p":"$@1b","v":null,"s":"$b"}},"a":"$@1c","u":"$@1d","b":"wkA8w1n_0KDa_T_kHik1G"}
+1e:I[97367,["$2","$3"],"OutletBoundary"]
+12:["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$L9",null,{"icon":"$0:t:t:d:r:props:children:1:props:children:1:props:children:props:children:props:notFound:0:2:props:children:0:props:children:0:props:children:2:props:children:1:props:icon","size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}]
+13:["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/2bjksbceacuid.js","async":true}]
+14:["$","$L1e",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+b:300
+1f:null
+1d:true
+b:C
+1c:0
+d:"$undefined"
+a:"$undefined"
+1b:"$undefined"
+15:"$undefined"

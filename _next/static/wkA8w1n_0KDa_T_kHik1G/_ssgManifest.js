@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[page]","\u002Fevenimente\u002Farhiva\u002F[slug]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
