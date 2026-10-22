@@ -1,28 +1,32 @@
 1:"$Sreact.fragment"
-2:"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js"
-3:"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js"
-4:I[94433,["$2","$3"],"AuthProvider"]
-5:I[39756,["$2","$3"],"default"]
-6:I[37457,["$2","$3"],"default"]
-7:"/cmiea-preview/_next/static/chunks/19nkelbasp8m9.js"
-8:I[48303,["$2","$3","$7"],"SiteHeader"]
-9:I[5014,["$2","$3","$7"],"default"]
-10:I[2062,["$2","$3","$7"],"ProtectedView"]
-11:I[19028,["$2","$3","$7"],"LegacyView"]
-17:"ViewportBoundary"
-18:I[97367,["$2","$3"],"$17"]
-19:"MetadataBoundary"
-1a:I[97367,["$2","$3"],"$19"]
-1b:"$Sreact.suspense"
-:HL["/cmiea-preview/_next/static/chunks/0svafqs7-u__g.css","style"]
-:HL["/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","style"]
-:HL["/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","style"]
-:HL["/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","style"]
+2:"static/chunks/53c0104b-3905abdacd8d2adb.js"
+3:"static/chunks/5b86099a-6bb2388e8453c6aa.js"
+4:"static/chunks/949-81dbf6f80dfc4651.js"
+5:"static/chunks/app/layout-4f673b1ad05870ad.js"
+6:I[639,["399","$2","563","$3","949","$4","177","$5"],"AuthProvider"]
+7:I[7121,[],""]
+8:I[4581,[],""]
+9:"static/chunks/845-0c230650ef0d7c5b.js"
+a:"static/chunks/996-9fc8e5a80d0bed03.js"
+b:"static/chunks/app/%5Bpage%5D/page-d36cbf58e01681ae.js"
+c:I[8350,["399","$2","563","$3","949","$4","845","$9","996","$a","698","$b"],"SiteHeader"]
+d:I[209,["399","$2","563","$3","949","$4","845","$9","996","$a","698","$b"],"default"]
+14:I[9577,["399","$2","563","$3","949","$4","845","$9","996","$a","698","$b"],"ProtectedView"]
+15:I[910,["399","$2","563","$3","949","$4","845","$9","996","$a","698","$b"],"LegacyView"]
+1a:"ViewportBoundary"
+1b:I[484,[],"$1a"]
+1c:"MetadataBoundary"
+1d:I[484,[],"$1c"]
+1e:"$Sreact.suspense"
+:HL["/cmiea-preview/_next/static/css/efb737d4c6dc1029.css","style"]
+:HL["/cmiea-preview/_next/static/css/87d435c03d961d8a.css","style"]
+:HL["/cmiea-preview/_next/static/css/0002f0676696eac5.css","style"]
+:HL["/cmiea-preview/_next/static/css/b877444fe53ace75.css","style"]
 :HL["https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","style"]
-b:X
-e:X
-e:C
-12:T1b2c,
+f:X
+12:X
+12:C
+16:T1a83,
     <!-- Keeping the original navigation structure -->
     
     
@@ -144,27 +148,24 @@ e:C
     <!-- Basic Firebase initialization -->
     
     <!-- Floating Telegram Bubble -->
-    <a href="https://t.me/+03ceuSlIN25mMTky" target="_blank" class="telegram-float" title="Contactează-ne pe Telegram">
-        <i class="ph ph-telegram-logo"></i>
-    </a>
+    
     
     
     
     
 
-f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L8",null,{}],["$","$L10",null,{"children":["$","main",null,{"className":"legacy-main","children":["$","$L11",null,{"document":{"html":"$12","scripts":[{"code":"\n        firebase.initializeApp({\n          apiKey: \"AIzaSyBoWwArqP6pYGvVSBzCbUnOphhzk0Pi9oQ\",\n          authDomain: \"tekwill-441fe.firebaseapp.com\",\n          projectId: \"tekwill-441fe\",\n          storageBucket: \"tekwill-441fe.firebasestorage.app\",\n          messagingSenderId: \"990223834307\",\n          appId: \"1:990223834307:web:c1a9da67d5e5f070db1676\"\n        });\n    "},{"src":"/legacy/js/dashboard.js","module":false}]},"page":"dashboard"}]}]}],"$L13"],["$L14"],"$L15"]}],"p":"$@16","v":null,"s":"$b"}}]]
-c:[["children",{"s":{"n":"page","t":"d","k":"dashboard","s":["curs","evenimente"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
-0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/0svafqs7-u__g.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","precedence":"next"}],["$","link","3",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","precedence":"next"}],["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js","async":true}]],["$","html",null,{"lang":"ro","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/cmiea-preview/"}],["$","link",null,{"rel":"icon","href":"/cmiea-preview/assets/icon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","rel":"stylesheet"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('color-theme')==='dark'||(!localStorage.getItem('color-theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch{}"}}]]}],["$","body",null,{"className":"site-page","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","$L8",null,{}],["$","main",null,{"className":"app-container page-intro not-found","children":[["$","p",null,{"className":"section-eyebrow","children":"404"}],["$","h1",null,{"children":"Pagina nu a fost găsită."}],["$","p",null,{"children":"Poți reveni la pagina principală sau descoperi cursurile noastre."}],["$","a",null,{"href":"/cmiea-preview/home/","className":"app-button","children":"Înapoi la CMIEA"}]]}],["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$L9",null,{"icon":{"name":"arrow-up-right","size":24,"node":[["path",{"d":"M7 7h10v10","key":"1tivn9"}],["path",{"d":"M7 17 17 7","key":"1vkiza"}]]},"size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}]],[]]}]}]}]]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Contul meu — CMIEA"}],["$","meta","1",{"name":"description","content":"Centrul Municipal de Învățare și Educație a Adulților. Cursuri gratuite, evenimente și cluburi în Chișinău."}]]}]}],null]}],null]}],"p":"$@1c","v":null,"s":"$b"}},"a":"$@1d","u":"$@1e","b":"6rh1FhfaM3GSh3NPnuVpV"}
-1f:I[97367,["$2","$3"],"OutletBoundary"]
-13:["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$L9",null,{"icon":"$0:t:t:d:r:props:children:1:props:children:1:props:children:props:children:props:notFound:0:2:props:children:0:props:children:0:props:children:2:props:children:1:props:icon","size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}]
-14:["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/19nkelbasp8m9.js","async":true}]
-15:["$","$L1f",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@20"}]}]
-b:300
-20:null
-1e:true
-b:C
-1d:0
-d:"$undefined"
-a:"$undefined"
-1c:"$undefined"
-16:"$undefined"
+13:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$Lc",null,{}],["$","$L14",null,{"children":["$","main",null,{"className":"legacy-main","children":["$","$L15",null,{"document":{"html":"$16","scripts":[{"code":"\n        firebase.initializeApp({\n          apiKey: \"AIzaSyBoWwArqP6pYGvVSBzCbUnOphhzk0Pi9oQ\",\n          authDomain: \"tekwill-441fe.firebaseapp.com\",\n          projectId: \"tekwill-441fe\",\n          storageBucket: \"tekwill-441fe.firebasestorage.app\",\n          messagingSenderId: \"990223834307\",\n          appId: \"1:990223834307:web:c1a9da67d5e5f070db1676\"\n        });\n    "},{"src":"/legacy/js/dashboard.js","module":false}]},"page":"dashboard"}]}]}],"$L17"],null,"$L18"]}],"p":"$@19","v":null,"s":"$f"}}]]
+10:[["children",{"s":{"n":"page","t":"d","k":"dashboard","s":["_not-found","_global-error","curs","evenimente"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}]}]]}],"p":"$@11","v":"$12","s":"$f"},"c":"$Q13"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/css/efb737d4c6dc1029.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/css/87d435c03d961d8a.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/css/0002f0676696eac5.css","precedence":"next"}],["$","link","3",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/css/b877444fe53ace75.css","precedence":"next"}]],["$","html",null,{"lang":"ro","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/cmiea-preview/"}],["$","link",null,{"rel":"icon","href":"/cmiea-preview/assets/icon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","rel":"stylesheet"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('color-theme')==='dark'||(!localStorage.getItem('color-theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch{}"}}]]}],["$","body",null,{"className":"site-page","children":["$","$L6",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","template":["$","$L8",null,{}],"notFound":[[["$","$Lc",null,{}],["$","main",null,{"className":"app-container page-intro not-found","children":[["$","p",null,{"className":"section-eyebrow","children":"404"}],["$","h1",null,{"children":"Pagina nu a fost găsită."}],["$","p",null,{"children":"Poți reveni la pagina principală sau descoperi cursurile noastre."}],["$","a",null,{"href":"/cmiea-preview/home/","className":"app-button","children":"Înapoi la CMIEA"}]]}],[["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"footer-wordmark","aria-hidden":"true","children":"cmiea"}],["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$Ld",null,{"icon":{"name":"arrow-up-right","size":24,"node":[["path",{"d":"M7 7h10v10","key":"1tivn9"}],["path",{"d":"M7 17 17 7","key":"1vkiza"}]]},"size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}],["$","a",null,{"className":"telegram-float","href":"https://t.me/+03ceuSlIN25mMTky","target":"_blank","rel":"noopener noreferrer","aria-label":"Contactează-ne pe Telegram (se deschide într-o filă nouă)","title":"Contactează-ne pe Telegram","children":["$","i",null,{"className":"ph ph-telegram-logo","aria-hidden":"true"}]}]]],[]]}]}]}]]}]]}],"p":"$@e","v":null,"s":"$f"},"c":"$Q10"},"h":{"r":["$","$1","h",{"children":[null,["$","$L1b",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1d",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Contul meu — CMIEA"}],["$","meta","1",{"name":"description","content":"Centrul Municipal de Învățare și Educație a Adulților. Cursuri gratuite, evenimente și cluburi în Chișinău."}]]}]}],null]}],null]}],"p":"$@1f","v":null,"s":"$f"}},"a":"$@20","u":"$@21","b":"nNciVACQSS3ha072TR2r8"}
+22:I[484,[],"OutletBoundary"]
+17:[["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"footer-wordmark","aria-hidden":"true","children":"cmiea"}],["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$Ld",null,{"icon":"$0:t:t:d:r:props:children:1:props:children:1:props:children:props:children:props:notFound:0:2:0:props:children:1:props:children:0:props:children:2:props:children:1:props:icon","size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}],["$","a",null,{"className":"telegram-float","href":"https://t.me/+03ceuSlIN25mMTky","target":"_blank","rel":"noopener noreferrer","aria-label":"Contactează-ne pe Telegram (se deschide într-o filă nouă)","title":"Contactează-ne pe Telegram","children":["$","i",null,{"className":"ph ph-telegram-logo","aria-hidden":"true"}]}]]
+18:["$","$L22",null,{"children":["$","$1e",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+f:300
+23:null
+21:true
+f:C
+20:0
+11:"$undefined"
+e:"$undefined"
+1f:"$undefined"
+19:"$undefined"
