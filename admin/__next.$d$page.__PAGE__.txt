@@ -1,0 +1,483 @@
+1:"$Sreact.fragment"
+2:"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js"
+3:"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js"
+4:I[94433,["$2","$3"],"AuthProvider"]
+5:I[39756,["$2","$3"],"default"]
+6:I[37457,["$2","$3"],"default"]
+7:"/cmiea-preview/_next/static/chunks/19nkelbasp8m9.js"
+8:I[48303,["$2","$3","$7"],"SiteHeader"]
+9:I[5014,["$2","$3","$7"],"default"]
+10:I[2062,["$2","$3","$7"],"ProtectedView"]
+11:I[52161,["$2","$3","$7"],"AdminWorkspace"]
+16:"ViewportBoundary"
+17:I[97367,["$2","$3"],"$16"]
+18:"MetadataBoundary"
+19:I[97367,["$2","$3"],"$18"]
+1a:"$Sreact.suspense"
+:HL["/cmiea-preview/_next/static/chunks/0svafqs7-u__g.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","style"]
+:HL["/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","style"]
+b:X
+e:X
+e:C
+12:Tb011,
+    
+    
+
+    
+    
+    <!-- Admin Sub-Navigation (Mobile) -->
+    
+
+    <!-- Main Content Section -->
+    <div class="legacy-admin-content">
+        <!-- Courses Section -->
+        <div id="courseSection" class="admin-section bg-white dark:bg-dark2 shadow-lg rounded-xl p-6">
+            <div class="flex flex-col items-start lg:flex-row gap-4 lg:gap-0 justify-between items-center mb-6">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">Admin Panel - Gestionare Cursuri</h1>
+                <button id="addCourseBtn" class="bg-main hover:bg-maindark dark:bg-maindark text-white px-4 py-2 rounded-lg flex items-center app-button">
+                    <i class="ph ph-plus mr-2"></i> Adaugă Curs Nou
+                </button>
+            </div>
+
+            <!-- Loading indicator -->
+            <div id="loadingIndicator" class="flex justify-center my-8 hidden">
+                <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-main dark:border-maindark"></div>
+            </div>
+
+            <!-- Alerts -->
+            <div id="alertBox" class="mb-6 hidden"></div>
+
+            <!-- Courses Table -->
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead class="bg-white dark:bg-dark3">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Imagine</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Nume</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Categorie</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Perioada</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Locuri</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Acțiuni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="coursesTableBody" class="bg-white dark:bg-dark2 divide-y divide-gray-200 dark:divide-gray-700">
+                        <!-- Course rows will be added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Enrollment Requests Section -->
+        <div id="enrollmentSection" class="admin-section bg-white dark:bg-dark2 shadow-lg rounded-xl p-6 hidden">
+            <div class="flex flex-col sm:flex-row gap-3 sm:gap-0 justify-between sm:items-center mb-6">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">Admin Panel - Cereri de Înscriere</h1>
+                <div class="flex flex-col sm:flex-row gap-2 sm:items-center">
+                    <button id="exportEnrollmentExcelBtn" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg flex items-center app-button secondary">
+                        <i class="ph ph-file-xls mr-2"></i> Export Excel
+                    </button>
+                </div>
+            </div>
+
+            <!-- Enrollment Table -->
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead class="bg-white dark:bg-dark3">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Nume</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Email</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Telefon</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Curs</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
+                                <button id="enrollmentDateSortBtn" type="button" class="inline-flex items-center gap-1 hover:text-gray-700 dark:hover:text-gray-100 transition-colors">
+                                    <span>Data Cererii</span>
+                                    <span id="enrollmentDateSortArrow" aria-hidden="true">↓</span>
+                                </button>
+                            </th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Ocupație</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Status</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Acțiuni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="enrollmentTableBody" class="bg-white dark:bg-dark2 divide-y divide-gray-200 dark:divide-gray-700">
+                        <!-- Enrollment rows will be added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Users Section (Updated to use table view) -->
+        <div id="usersSection" class="admin-section bg-white dark:bg-dark2 shadow-lg rounded-xl p-6 hidden">
+            <div class="flex justify-between items-center mb-6">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">Admin Panel - Utilizatori Înscriși</h1>
+            </div>
+            
+            <!-- Search and Filter -->
+            <div class="mb-6">
+                <div class="relative">
+                    <div class="mb-2 max-w-[450px] border border-black/50 dark:border-sur text-xs p-3 lg:p-3 rounded-xl flex justify-between w-full bg-white dark:bg-dark3 mt-4">
+                        <input type="text" id="userSearch" class="text-base w-full max-w-[300px] dark:text-white bg-transparent outline-none" placeholder="Caută utilizatori...">
+                        <i class="ph ph-magnifying-glass text-2xl dark:text-sur text-black/30"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Users Table (Replacing the card container) -->
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead class="bg-white dark:bg-dark3">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Nume</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Email</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Telefon</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Curs</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Data Înscrierii</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Ocupație</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Status</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Acțiuni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usersTableBody" class="bg-white dark:bg-dark2 divide-y divide-gray-200 dark:divide-gray-700">
+                        <!-- User rows will be added here by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+        <!-- Events Section -->
+        <div id="eventsSection" class="admin-section bg-white dark:bg-dark2 shadow-lg rounded-xl p-6 hidden">
+            <div class="flex flex-col items-start lg:flex-row gap-4 lg:gap-0 justify-between items-center mb-6">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">Admin Panel - Gestionare Evenimente</h1>
+                <button id="addEventBtn" class="bg-main hover:bg-maindark dark:bg-maindark text-white px-4 py-2 rounded-lg flex items-center app-button">
+                    <i class="ph ph-plus mr-2"></i> Adaugă Eveniment Nou
+                </button>
+            </div>
+
+            <!-- Events Table -->
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead class="bg-white dark:bg-dark3">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Titlu</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Categorie</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Data Start</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Facilitator</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Status</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Acțiuni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="eventsTableBody" class="bg-white dark:bg-dark2 divide-y divide-gray-200 dark:divide-gray-700">
+                        <!-- Event rows will be added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Event Registrations Section - ADDED -->
+        <div id="eventRegistrationsSection" class="admin-section bg-white dark:bg-dark2 shadow-lg rounded-xl p-6 hidden">
+            <div class="flex justify-between items-center mb-6">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">Admin Panel - Cereri de Înregistrare la Evenimente</h1>
+            </div>
+
+            <!-- Loading indicator for event registrations -->
+            <div id="eventRegistrationsLoadingIndicator" class="flex justify-center my-8 hidden">
+                <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-main dark:border-maindark"></div>
+            </div>
+
+            <!-- Event Registrations Table -->
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead class="bg-white dark:bg-dark3">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Nume</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Email</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Eveniment</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Data Cererii</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Status</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Acțiuni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="eventRegistrationsTableBody" class="bg-white dark:bg-dark2 divide-y divide-gray-200 dark:divide-gray-700">
+                        <!-- Event registration rows will be added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+        <!-- Clubs Section -->
+        <div id="clubsSection" class="admin-section bg-white dark:bg-dark2 shadow-lg rounded-xl p-6 hidden">
+            <div class="flex flex-col items-start lg:flex-row gap-4 lg:gap-0 justify-between items-center mb-6">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">Admin Panel - Gestionare Cluburi</h1>
+                <button id="addClubBtn" class="bg-main hover:bg-maindark dark:bg-maindark text-white px-4 py-2 rounded-lg flex items-center app-button">
+                    <i class="ph ph-plus mr-2"></i> Adaugă Club Nou
+                </button>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead class="bg-white dark:bg-dark3">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Nume</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Program</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Descriere</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Acțiuni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="clubsTableBody" class="bg-white dark:bg-dark2 divide-y divide-gray-200 dark:divide-gray-700">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Club Registrations Section -->
+        <div id="clubRegistrationsSection" class="admin-section bg-white dark:bg-dark2 shadow-lg rounded-xl p-6 hidden">
+            <div class="flex justify-between items-center mb-6">
+                <h1 class="text-2xl font-bold text-gray-800 dark:text-white">Admin Panel - Cereri de Înregistrare la Cluburi</h1>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="min-w-full divide-y divide-gray-200 dark:divide-gray-700">
+                    <thead class="bg-white dark:bg-dark3">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Nume</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Email</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Telefon</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Cluburi Selectate</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Data Cererii</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Status</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">Acțiuni</th>
+                        </tr>
+                    </thead>
+                    <tbody id="clubRegistrationsTableBody" class="bg-white dark:bg-dark2 divide-y divide-gray-200 dark:divide-gray-700">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    
+
+    <!-- Add/Edit Club Modal -->
+    <div id="clubModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden z-50 admin-dialog" role="dialog" aria-modal="true" tabindex="-1" aria-labelledby="clubModalTitle"><div class="admin-dialog-panel admin-editor-panel"><div class="admin-dialog-header"><div><h3 id="clubModalTitle" class="text-xl font-semibold text-gray-700 dark:text-white">Adaugă Club Nou</h3><p>Publică un club al comunității și actualizează programul, descrierea și imaginile lui.</p></div><button id="closeClubModalBtn" class="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-200" type="button" aria-label="Închide">
+                    <i class="ph ph-x text-xl"></i>
+                </button></div><div class="admin-dialog-scroll"><form id="clubForm" class="admin-editor-form"><div id="clubIdField" class="hidden admin-record-id">
+                        <label for="clubId" class="block text-sm font-medium text-gray-700 dark:text-gray-300">ID</label>
+                        <input type="text" id="clubId" name="id" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" readonly="">
+                    </div><fieldset class="admin-form-section"><legend>Despre club</legend><p class="admin-form-help">Numele, descrierea și programul întâlnirilor.</p><div class="admin-form-grid"><div class="admin-field admin-field-wide">
+                        <label for="clubName" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Numele Clubului</label>
+                        <input type="text" id="clubName" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" required="">
+                    </div><div class="admin-field admin-field-wide">
+                        <label for="clubDescription" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Descriere</label>
+                        <textarea id="clubDescription" name="description" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" required=""></textarea>
+                    </div><div class="admin-field">
+                        <label for="clubSchedule" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Program</label>
+                        <input type="text" id="clubSchedule" name="schedule" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="ex: Miercuri, o dată în lună, 18.00-20.00" required="">
+                    </div></div></fieldset><fieldset class="admin-form-section"><legend>Imagini</legend><p class="admin-form-help">Folosește linkuri directe către fotografii. Galeria este opțională.</p><div class="admin-form-grid"><div class="admin-field admin-field-wide">
+                        <label for="clubImage" class="block text-sm font-medium text-gray-700 dark:text-gray-300">URL Imagine Principală (opțional)</label>
+                        <input type="url" id="clubImage" name="image" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Imaginea mare de prezentare">
+                    </div><div class="admin-field admin-field-wide"><label for="clubImage2">Fotografie galerie 1</label><input type="url" id="clubImage2" name="image2" class="block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="URL Imagine galerie 1"></div><div class="admin-field admin-field-wide"><label for="clubImage3">Fotografie galerie 2</label><input type="url" id="clubImage3" name="image3" class="block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="URL Imagine galerie 2"></div><div class="admin-field admin-field-wide"><label for="clubImage4">Fotografie galerie 3</label><input type="url" id="clubImage4" name="image4" class="block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="URL Imagine galerie 3"></div></div></fieldset></form></div><div class="admin-dialog-footer"><button type="button" id="cancelClubBtn" class="admin-button-secondary" form="clubForm">
+                            Anulează
+                        </button><button type="submit" id="saveClubBtn" class="admin-button-primary" form="clubForm">
+                            Salvează
+                        </button></div></div></div>
+
+    <!-- Club Registration Detail Modal -->
+    <div id="clubRegDetailModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden z-50 admin-dialog" role="dialog" aria-modal="true" tabindex="-1" aria-labelledby="clubRegDetailModal-title">
+        <div class="bg-white dark:bg-dark2 rounded-lg shadow-lg w-full max-w-3xl max-h-screen overflow-y-auto admin-dialog-panel">
+            <div class="flex justify-between items-center border-b border-gray-200 dark:border-gray-700 px-6 py-4 admin-dialog-header">
+                <h3 class="text-xl font-semibold text-gray-700 dark:text-white" id="clubRegDetailModal-title">Detalii Înregistrare Club</h3>
+                <button id="closeClubRegDetailBtn" class="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-200" type="button" aria-label="Închide">
+                    <i class="ph ph-x text-xl"></i>
+                </button>
+            </div>
+            <div id="clubRegDetailContent" class="p-6">
+            </div>
+            <div class="px-6 py-3 bg-gray-50 dark:bg-gray-800 flex justify-end space-x-3 rounded-b-lg admin-dialog-footer">
+                <button id="closeClubRegDetailBtn2" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 app-button secondary">
+                    Închide
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add/Edit Course Modal -->
+    <div id="courseModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden z-50 admin-dialog" role="dialog" aria-modal="true" tabindex="-1" aria-labelledby="modalTitle"><div class="admin-dialog-panel admin-editor-panel"><div class="admin-dialog-header"><div><h3 id="modalTitle" class="text-xl font-semibold text-gray-700 dark:text-white">Adaugă Curs Nou</h3><p>Completează informațiile cursului, programul și competențele pe care le vor dobândi participanții.</p></div><button id="closeModalBtn" class="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-200" type="button" aria-label="Închide">
+                    <i class="ph ph-x text-xl"></i>
+                </button></div><div class="admin-dialog-scroll"><form id="courseForm" class="admin-editor-form"><div id="idField" class="hidden admin-record-id">
+                    <input type="text" id="courseId" name="id" readonly="">
+                </div><input type="hidden" id="courseEmoji" name="emoji" value=""><fieldset class="admin-form-section"><legend>Prezentare</legend><p class="admin-form-help">Informațiile afișate pe site.</p><div class="admin-form-grid"><div class="admin-field admin-field-wide">
+                        <label for="courseName" class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Titlu</label>
+                        <input type="text" id="courseName" name="name" placeholder="Lorem ipsum" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white placeholder-gray-400" required="">
+                    </div><div class="admin-field admin-field-wide">
+                        <label for="courseDescription" class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Descriere</label>
+                        <textarea id="courseDescription" name="description" rows="4" placeholder="Lorem ipsum" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white placeholder-gray-400" required=""></textarea>
+                    </div><div class="admin-field admin-field-wide"><label for="courseImage">URL imagine</label><input type="url" id="courseImage" name="image" value=""></div></div></fieldset><fieldset class="admin-form-section"><legend>Organizare</legend><p class="admin-form-help">Nivelul, durata și locurile disponibile.</p><div class="admin-form-grid"><div class="admin-field"><label for="courseCategory">Nivel</label><select id="courseCategory" name="categorie" class="">
+                                <option value="Începător">Începător</option>
+                                <option value="Intermediar">Intermediar</option>
+                                <option value="Avansat">Avansat</option>
+                            </select></div><div class="admin-field"><label for="courseDuration">Durată</label><select id="courseDuration" name="durata" class="">
+                                <option value="1 Lună">1 Lună</option>
+                                <option value="2 Luni">2 Luni</option>
+                                <option value="3 Luni">3 Luni</option>
+                            </select></div><div class="admin-field"><label for="courseLanguage">Limbă</label><select id="courseLanguage" name="limba" class="">
+                                <option value="Română">Română</option>
+                                <option value="Engleză">Engleză</option>
+                                <option value="Rusă">Rusă</option>
+                            </select></div><div class="admin-field">
+                        <label for="courseHours" class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Ore</label>
+                        <input type="number" id="courseHours" name="ore" placeholder="Lorem ipsum" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white placeholder-gray-400" required="">
+                    </div><div class="admin-field admin-field-wide"><label for="coursePeriod">Perioadă</label><input type="text" id="coursePeriod" name="perioada" value=""></div><div class="admin-field"><label for="courseSeats">Număr de locuri</label><input type="number" id="courseSeats" name="locuri" value=""></div></div></fieldset><fieldset class="admin-form-section"><legend>Orar săptămânal</legend><p class="admin-form-help">Lasă liberă ziua în care nu sunt lecții.</p><div class="grid grid-cols-7 gap-2 admin-schedule-grid">
+                            <div>
+                                <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1 text-center" for="course-day-0">L</label>
+                                <input type="text" name="zileSaptamana[0]" value="09:00" class="w-full px-2 py-2 text-center border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white text-sm" id="course-day-0" placeholder="—">
+                            </div>
+                            <div>
+                                <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1 text-center" for="course-day-1">M</label>
+                                <input type="text" name="zileSaptamana[1]" value="09:00" class="w-full px-2 py-2 text-center border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white text-sm" id="course-day-1" placeholder="—">
+                            </div>
+                            <div>
+                                <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1 text-center" for="course-day-2">Mi</label>
+                                <input type="text" name="zileSaptamana[2]" value="09:00" class="w-full px-2 py-2 text-center border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white text-sm" id="course-day-2" placeholder="—">
+                            </div>
+                            <div>
+                                <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1 text-center" for="course-day-3">J</label>
+                                <input type="text" name="zileSaptamana[3]" value="09:00" class="w-full px-2 py-2 text-center border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white text-sm" id="course-day-3" placeholder="—">
+                            </div>
+                            <div>
+                                <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1 text-center" for="course-day-4">V</label>
+                                <input type="text" name="zileSaptamana[4]" value="09:00" class="w-full px-2 py-2 text-center border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white text-sm" id="course-day-4" placeholder="—">
+                            </div>
+                            <div>
+                                <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1 text-center" for="course-day-5">S</label>
+                                <input type="text" name="zileSaptamana[5]" value="09:00" class="w-full px-2 py-2 text-center border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white text-sm" id="course-day-5" placeholder="—">
+                            </div>
+                            <div>
+                                <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1 text-center" for="course-day-6">D</label>
+                                <input type="text" name="zileSaptamana[6]" value="09:00" class="w-full px-2 py-2 text-center border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white text-sm" id="course-day-6" placeholder="—">
+                            </div>
+                        </div></fieldset><fieldset class="admin-form-section"><legend>Ce vor învăța participanții</legend><p class="admin-form-help">Trei competențe, fiecare cu un titlu și o scurtă descriere.</p><div class="admin-form-grid"><div class="admin-field admin-field-wide">
+                                    <label for="courseLearn1Title" class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Titlu1</label>
+                                    <input type="text" id="courseLearn1Title" name="titluInveti1" placeholder="Lorem ipsum" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white placeholder-gray-400" required="">
+                                </div><div class="admin-field admin-field-wide">
+                                    <label for="courseLearn1" class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Descriere1</label>
+                                    <textarea id="courseLearn1" name="inveti1" rows="3" placeholder="Lorem ipsum" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white placeholder-gray-400" required=""></textarea>
+                                </div><div class="admin-field admin-field-wide">
+                                    <label for="courseLearn2Title" class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Titlu2</label>
+                                    <input type="text" id="courseLearn2Title" name="titluInveti2" placeholder="Lorem ipsum" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white placeholder-gray-400" required="">
+                                </div><div class="admin-field admin-field-wide">
+                                    <label for="courseLearn2" class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Descriere2</label>
+                                    <textarea id="courseLearn2" name="inveti2" rows="3" placeholder="Lorem ipsum" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white placeholder-gray-400" required=""></textarea>
+                                </div><div class="admin-field admin-field-wide">
+                                    <label for="courseLearn3Title" class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Titlu3</label>
+                                    <input type="text" id="courseLearn3Title" name="titluInveti3" placeholder="Lorem ipsum" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white placeholder-gray-400" required="">
+                                </div><div class="admin-field admin-field-wide">
+                                    <label for="courseLearn3" class="block text-sm font-medium text-gray-900 dark:text-gray-100 mb-2">Descriere3</label>
+                                    <textarea id="courseLearn3" name="inveti3" rows="3" placeholder="Lorem ipsum" class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-dark2 dark:text-white placeholder-gray-400" required=""></textarea>
+                                </div></div></fieldset></form></div><div class="admin-dialog-footer"><button type="button" id="cancelBtn" class="admin-button-secondary" form="courseForm">
+                        Anulează
+                    </button><button type="submit" id="saveBtn" class="admin-button-primary" form="courseForm">
+                        Salvează
+                    </button></div></div></div>
+
+    <!-- Delete Confirmation Modal -->
+    <div id="deleteModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden z-50 admin-dialog" role="dialog" aria-modal="true" tabindex="-1" aria-labelledby="deleteModal-title">
+        <div class="bg-white dark:bg-dark2 rounded-lg shadow-lg w-full max-w-md admin-dialog-panel">
+            <div class="px-6 py-4 admin-dialog-header">
+                <h3 class="text-lg font-semibold text-gray-800 dark:text-white" id="deleteModal-title">Confirmare ștergere</h3>
+                <p class="mt-2 text-gray-600 dark:text-gray-300">Ești sigur că vrei să ștergi acest element? Această acțiune nu poate fi anulată.</p>
+            </div>
+            <div class="px-6 py-3 bg-gray-50 dark:bg-gray-800 flex justify-end space-x-3 rounded-b-lg admin-dialog-footer">
+                <button id="cancelDeleteBtn" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 app-button secondary">
+                    Anulează
+                </button>
+                <button id="confirmDeleteBtn" class="px-4 py-2 bg-red-500 text-white rounded-md hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700 app-button danger">
+                    Șterge
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- User Details Modal -->
+    <div id="userDetailsModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden z-50 admin-dialog" role="dialog" aria-modal="true" tabindex="-1" aria-labelledby="userModalTitle">
+        <div class="bg-white dark:bg-dark2 rounded-lg shadow-lg w-full max-w-3xl admin-dialog-panel">
+            <div class="flex justify-between items-center border-b border-gray-200 dark:border-gray-700 px-6 py-4 admin-dialog-header">
+                <h3 id="userModalTitle" class="text-xl font-semibold text-gray-700 dark:text-white">Detalii Utilizator</h3>
+                <button id="closeUserModalBtn" class="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-200" type="button" aria-label="Închide">
+                    <i class="ph ph-x text-xl"></i>
+                </button>
+            </div>
+            <div id="userModalContent" class="p-6">
+                <!-- User details will be loaded here -->
+            </div>
+            <div class="px-6 py-3 bg-gray-50 dark:bg-gray-800 flex justify-end space-x-3 rounded-b-lg admin-dialog-footer">
+                <button id="closeUserDetailsBtn" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 app-button secondary">
+                    Închide
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add/Edit Event Modal -->
+    <div id="eventModal" class="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center hidden z-50 admin-dialog" role="dialog" aria-modal="true" tabindex="-1" aria-labelledby="eventModalTitle"><div class="admin-dialog-panel admin-editor-panel"><div class="admin-dialog-header"><div><h3 id="eventModalTitle" class="text-xl font-semibold text-gray-700 dark:text-white">Adaugă Eveniment Nou</h3><p>Prezintă evenimentul și completează programul și condițiile de participare.</p></div><button id="closeEventModalBtn" class="text-gray-400 hover:text-gray-500 dark:text-gray-300 dark:hover:text-gray-200" type="button" aria-label="Închide">
+                    <i class="ph ph-x text-xl"></i>
+                </button></div><div class="admin-dialog-scroll"><form id="eventForm" class="admin-editor-form"><div id="eventIdField" class="col-span-1 hidden admin-record-id">
+                            <label for="eventId" class="block text-sm font-medium text-gray-700 dark:text-gray-300">ID</label>
+                            <input type="text" id="eventId" name="id" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" readonly="">
+                        </div><fieldset class="admin-form-section"><legend>Despre eveniment</legend><p class="admin-form-help">Titlul și descrierea vor apărea în lista de evenimente.</p><div class="admin-form-grid"><div class="admin-field admin-field-wide">
+                                <label for="eventTitle" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Titlu Eveniment</label>
+                                <input type="text" id="eventTitle" name="title" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" required="">
+                            </div><div class="admin-field admin-field-wide">
+                                <label for="eventDescription" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Descriere</label>
+                                <textarea id="eventDescription" name="description" rows="3" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" required=""></textarea>
+                            </div><div class="admin-field"><label for="eventCategory">Categorie</label><select id="eventCategory" name="category" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" required="">
+                                    <option value="Workshop">Workshop</option>
+                                    <option value="Seminar">Seminar</option>
+                                    <option value="Conferință">Conferință</option>
+                                    <option value="Training">Training</option>
+                                    <option value="Webinar">Webinar</option>
+                                </select></div><div class="admin-field">
+                                <label for="eventFacilitator" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Facilitator</label>
+                                <input type="text" id="eventFacilitator" name="facilitator" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" placeholder="Echipa CMIEA">
+                            </div></div></fieldset><fieldset class="admin-form-section"><legend>Program și participare</legend><p class="admin-form-help">Alege datele și numărul de locuri.</p><div class="admin-form-grid"><div class="admin-field">
+                                <label for="eventStartDate" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Data și ora de început</label>
+                                <input type="datetime-local" id="eventStartDate" name="startDate" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" required="">
+                            </div><div class="admin-field">
+                                <label for="eventEndDate" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Data și ora de sfârșit</label>
+                                <input type="datetime-local" id="eventEndDate" name="endDate" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                            </div><div class="admin-field">
+                                <label for="eventAvailableSpots" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Locuri disponibile</label>
+                                <input type="number" id="eventAvailableSpots" name="availableSpots" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white" min="1">
+                            </div><div class="admin-field admin-field-wide">
+                                <label for="eventRequirements" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Cerințe de participare</label>
+                                <textarea id="eventRequirements" name="requirements" rows="2" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white"></textarea>
+                            </div></div></fieldset><fieldset class="admin-form-section"><legend>Informații suplimentare</legend><p class="admin-form-help">Adaugă afișul și notele pentru participanți.</p><div class="admin-form-grid"><div class="admin-field admin-field-wide">
+                                <label for="eventImage" class="block text-sm font-medium text-gray-700 dark:text-gray-300">URL Imagine</label>
+                                <input type="url" id="eventImage" name="image" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white">
+                            </div><div class="admin-field admin-field-wide">
+                                <label for="eventNotes" class="block text-sm font-medium text-gray-700 dark:text-gray-300">Note importante</label>
+                                <textarea id="eventNotes" name="notes" rows="2" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm p-2 border dark:bg-gray-700 dark:border-gray-600 dark:text-white"></textarea>
+                            </div></div></fieldset></form></div><div class="admin-dialog-footer"><button type="button" id="cancelEventBtn" class="admin-button-secondary" form="eventForm">
+                            Anulează
+                        </button><button type="submit" id="saveEventBtn" class="admin-button-primary" form="eventForm">
+                            Salvează
+                        </button></div></div></div>
+
+        
+        
+  
+f:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[[["$","$L8",null,{}],["$","$L10",null,{"admin":true,"children":["$","$L11",null,{"document":{"html":"$12","scripts":[{"code":"\n\n        document.querySelectorAll('input[name=\"categorie\"]').forEach(radio => {\n            radio.addEventListener('change', function() {\n                document.getElementById('courseCategory').value = this.value;\n            });\n        });\n\n        document.querySelectorAll('input[name=\"durata\"]').forEach(radio => {\n            radio.addEventListener('change', function() {\n                document.getElementById('courseDuration').value = this.value;\n            });\n        });\n\n        document.querySelectorAll('input[name=\"limba\"]').forEach(radio => {\n            radio.addEventListener('change', function() {\n                document.getElementById('courseLanguage').value = this.value;\n            });\n        });\n\n        "},{"src":"https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js","module":false},{"src":"/legacy/js/admin.js","module":false}]}}]}]],["$L13"],"$L14"]}],"p":"$@15","v":null,"s":"$b"}}]]
+c:[["children",{"s":{"n":"page","t":"d","k":"admin","s":["curs","evenimente"]},"h":65632,"d":{"r":["$","$1","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$e","s":"$b"},"c":"$Qf"}]]
+0:{"t":{"t":{"s":"","h":131152,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/0svafqs7-u__g.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3t5d70uiw6z1z.css","precedence":"next"}],["$","link","2",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/3vldb-3e9cvbq.css","precedence":"next"}],["$","link","3",{"rel":"stylesheet","href":"/cmiea-preview/_next/static/chunks/1vsmetv9pw4fc.css","precedence":"next"}],["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/0umf92h1sb77c.js","async":true}],["$","script","script-1",{"src":"/cmiea-preview/_next/static/chunks/2bp80qo2ykn42.js","async":true}]],["$","html",null,{"lang":"ro","suppressHydrationWarning":true,"children":[["$","head",null,{"children":[["$","base",null,{"href":"/cmiea-preview/"}],["$","link",null,{"rel":"icon","href":"/cmiea-preview/assets/icon.ico"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.googleapis.com"}],["$","link",null,{"rel":"preconnect","href":"https://fonts.gstatic.com","crossOrigin":"anonymous"}],["$","link",null,{"href":"https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap","rel":"stylesheet"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"try{if(localStorage.getItem('color-theme')==='dark'||(!localStorage.getItem('color-theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.documentElement.classList.add('dark')}catch{}"}}]]}],["$","body",null,{"className":"site-page","children":["$","$L4",null,{"children":["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}],"notFound":[[["$","$L8",null,{}],["$","main",null,{"className":"app-container page-intro not-found","children":[["$","p",null,{"className":"section-eyebrow","children":"404"}],["$","h1",null,{"children":"Pagina nu a fost găsită."}],["$","p",null,{"children":"Poți reveni la pagina principală sau descoperi cursurile noastre."}],["$","a",null,{"href":"/cmiea-preview/home/","className":"app-button","children":"Înapoi la CMIEA"}]]}],["$","footer",null,{"className":"app-footer","children":[["$","div",null,{"className":"app-container footer-grid","children":[["$","div",null,{"children":[["$","a",null,{"className":"footer-brand","href":"/cmiea-preview/home/","children":"CMIEA"}],["$","p",null,{"children":["Învățăm. Ne conectăm.",["$","br",null,{}],"Creștem împreună."]}],["$","a",null,{"href":"https://www.facebook.com/profile.php?id=100091913902284","target":"_blank","rel":"noopener noreferrer","children":["Urmărește-ne pe Facebook ",["$","$L9",null,{"icon":{"name":"arrow-up-right","size":24,"node":[["path",{"d":"M7 7h10v10","key":"1tivn9"}],["path",{"d":"M7 17 17 7","key":"1vkiza"}]]},"size":14}]]}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Descoperă"}],["$","a",null,{"href":"/cmiea-preview/cursuri/","children":"Cursuri"}],["$","a",null,{"href":"/cmiea-preview/evenimente/","children":"Evenimente"}],["$","a",null,{"href":"/cmiea-preview/cluburi/","children":"Cluburi"}],["$","a",null,{"href":"/cmiea-preview/noutati/","children":"Noutăți"}]]}],["$","div",null,{"children":[["$","h2",null,{"children":"Despre CMIEA"}],["$","a",null,{"href":"/cmiea-preview/despre/","children":"Despre noi"}],["$","a",null,{"href":"/cmiea-preview/contact/","children":"Contacte"}],["$","a",null,{"href":"/cmiea-preview/register/","children":"Creează cont"}]]}]]}],["$","div",null,{"className":"app-container footer-bottom","children":[["$","span",null,{"children":"© 2026 CMIEA"}],["$","div",null,{"children":[["$","a",null,{"href":"/cmiea-preview/termeni/","children":"Termeni și condiții"}],["$","a",null,{"href":"/cmiea-preview/confidentialitate/","children":"Confidențialitate"}],["$","a",null,{"href":"/cmiea-preview/cookies/","children":"Cookies"}]]}]]}]]}]],[]]}]}]}]]}]]}],"p":"$@a","v":null,"s":"$b"},"c":"$Qc"},"h":{"r":["$","$1","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1a",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Administrare — CMIEA"}],["$","meta","1",{"name":"description","content":"Centrul Municipal de Învățare și Educație a Adulților. Cursuri gratuite, evenimente și cluburi în Chișinău."}]]}]}],null]}],null]}],"p":"$@1b","v":null,"s":"$b"}},"a":"$@1c","u":"$@1d","b":"6rh1FhfaM3GSh3NPnuVpV"}
+1e:I[97367,["$2","$3"],"OutletBoundary"]
+13:["$","script","script-0",{"src":"/cmiea-preview/_next/static/chunks/19nkelbasp8m9.js","async":true}]
+14:["$","$L1e",null,{"children":["$","$1a",null,{"name":"Next.MetadataOutlet","children":"$@1f"}]}]
+b:300
+1f:null
+1d:true
+b:C
+1c:0
+d:"$undefined"
+a:"$undefined"
+1b:"$undefined"
+15:"$undefined"

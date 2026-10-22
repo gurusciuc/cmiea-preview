@@ -89,16 +89,11 @@ async function getApprovedEventRegistrationsCount(eventId) {
     }
 }
 
-// Firestore records can use timestamps as well as ISO strings.
-function getEventDate(value) {
-    return new Date(value && typeof value.toDate === 'function' ? value.toDate() : value);
-}
-
 // Get event status based on dates
 function getEventStatus(startDate, endDate) {
     const now = new Date();
-    const start = getEventDate(startDate);
-    const end = getEventDate(endDate || startDate);
+    const start = new Date(startDate);
+    const end = new Date(endDate || startDate);
     
     if (now < start) return 'upcoming';
     if (now >= start && now <= end) return 'ongoing';
@@ -107,15 +102,13 @@ function getEventStatus(startDate, endDate) {
 
 // Format date for display
 function formatEventDate(dateString) {
-    const date = getEventDate(dateString);
-    if (!Number.isFinite(date.getTime())) return 'Dată de anunțat';
+    const date = new Date(dateString);
     const options = { 
         year: 'numeric', 
         month: 'long', 
         day: 'numeric',
         hour: '2-digit',
-        minute: '2-digit',
-        timeZone: 'Europe/Chisinau'
+        minute: '2-digit'
     };
     return date.toLocaleDateString('ro-RO', options);
 }
@@ -124,10 +117,9 @@ function formatEventDate(dateString) {
 function formatEventDuration(startDate, endDate) {
     if (!endDate) return null;
     
-    const start = getEventDate(startDate);
-    const end = getEventDate(endDate);
+    const start = new Date(startDate);
+    const end = new Date(endDate);
     const diffMs = end - start;
-    if (!Number.isFinite(diffMs) || diffMs < 0) return null;
     const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
     const diffMinutes = Math.floor((diffMs % (1000 * 60 * 60)) / (1000 * 60));
     
@@ -282,7 +274,7 @@ function createRegistrationModal() {
                 Te-ai înregistrat cu succes la eveniment. Vei primi detalii suplimentare pe email în curând.
             </p>
             <div class="flex justify-center">
-                <button id="success-modal-close" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-main hover:bg-maindark text-base font-medium text-white">
+                <button id="success-modal-close" class="app-button w-full">
                    Perfect!
                 </button>
             </div>
@@ -339,7 +331,7 @@ function createPendingRegistrationModal() {
                     : 'Cererea ta a fost trimisă cu succes și este în așteptare. Administratorul va revizui cererea și o va aproba în scurt timp. Vei fi notificat când cererea este aprobată.'}
             </p>
             <div class="flex justify-center">
-                <button id="success-modal-close" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-main hover:bg-maindark text-base font-medium text-white">
+                <button id="success-modal-close" class="app-button w-full">
                    Înțeles!
                 </button>
             </div>
@@ -837,7 +829,7 @@ function renderEventUI(event) {
                             <button 
                                 id="event-register-btn" 
                                 data-event-id="${event.id}"
-                                class="w-full px-8 py-4 bg-gradient-to-r from-main to-maindark hover:from-maindark hover:to-main text-white rounded-2xl font-semibold text-lg transition-all duration-300 hover:shadow-2xl transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                                class="app-button w-full"
                                 ${status === 'past' ? 'disabled' : ''}
                             >
                                 ${status === 'past' ? 'Eveniment încheiat' : remainingSpots > 0 
@@ -917,7 +909,7 @@ async function loadRecommendedEvents(currentEventId) {
             if (a.featured && !b.featured) return -1;
             if (!a.featured && b.featured) return 1;
             // Then by date
-            return getEventDate(a.startDate) - getEventDate(b.startDate);
+            return new Date(a.startDate) - new Date(b.startDate);
         });
         
         // Limit to 3 events
@@ -995,7 +987,7 @@ async function loadRecommendedEvents(currentEventId) {
                         </div>
                         
                         <a href="/eveniment.html?id=${event.id}" class="block w-full">
-                            <button class="w-full py-2.5 px-4 bg-main dark:bg-maindark text-white rounded-lg font-medium transform hover:scale-105 transition-all duration-200 hover:bg-maindark dark:hover:bg-main">
+                            <button class="app-button w-full">
                                 Vezi Detalii
                             </button>
                         </a>
